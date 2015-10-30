@@ -1,0 +1,14 @@
+<html>
+	<head>
+		<title>Best site ever</title>
+	</head>
+<body>
+<h1>Imma workin</h1>
+{% for p in peeps %}
+	<p>{{ p.name }}</p>
+	<p>{{ p.birthday }}</p>
+	<img src="/pics/{{p.pic}}" alt="you remember me, you know it" width="600px" height="800px" />
+	<hr />
+{% endfor %}
+</body>
+</html>
